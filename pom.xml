@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.integratedmodelling</groupId>
+		<artifactId>klab-core</artifactId>
+		<version>0.9.9</version>
+	</parent>
+	<groupId>jagan</groupId>
+    <artifactId>mohan</artifactId>
+    <packaging>jar</packaging>
+    <version>1818</version>
+	<description>This package provides a basic example k.LAB component and a Maven archetype suitable for the development of other components. The code provides the im.example component and example contextualizers for all observable types. </description>
+
+	<!-- no other dependencies should be necessary on the k.LAB side. Remember that any
+	     additional jars will need to be included in the lib/ directory and the correspondent
+	     include statement will be needed in the maven-jar-plugin configuration above. -->
+	<dependencies>
+		<dependency>
+			<groupId>org.integratedmodelling</groupId>
+			<artifactId>klab-engine</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
